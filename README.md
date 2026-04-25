@@ -108,7 +108,7 @@ playwright install chromium
 ```
 
 ### 5. Configure PostgreSQL
-On macOS with Homebrew, your superuser is your system username (not `postgres`):
+On macOS with Homebrew: your superuser is your system username (not `postgres`):
 ```bash
 brew services start postgresql@18
 psql -U YOUR_USERNAME -d postgres -c "CREATE DATABASE cyberjobs;"
