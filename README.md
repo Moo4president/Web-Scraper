@@ -108,7 +108,7 @@ playwright install chromium
 ```
 
 ### 5. Configure PostgreSQL
-On macOS with Homebrew: your superuser is your system username (not `postgres`):
+On macOS with Homebrew: Your superuser is your system username (not `postgres`):
 ```bash
 brew services start postgresql@18
 psql -U YOUR_USERNAME -d postgres -c "CREATE DATABASE cyberjobs;"
@@ -129,7 +129,7 @@ DB_USER=YOUR_USERNAME
 DB_PASS=
 ```
 
-On macOS with Homebrew PostgreSQL, `DB_PASS` can be left blank — no password is required for local connections.
+On macOS with Homebrew PostgreSQL: `DB_PASS` can be left blank — no password is required for local connections.
 
 ### 7. Configure your search
 Edit `config.py` to set your keywords and target companies per platform:
