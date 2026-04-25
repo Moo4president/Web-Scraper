@@ -1,6 +1,8 @@
 # 🔍 CyberJob Scraper
 
-A Python-based job scraper that monitors cybersecurity job postings from Greenhouse, Lever, Workday, and company career pages directly, stores new listings in a PostgreSQL database, and prints a daily digest to the CLI — so you never miss a relevant opening.
+A Python-based job scraper that monitors cybersecurity job postings from Greenhouse, Lever, Workday, and company career pages.
+
+It stores new listings in a PostgreSQL database and prints a daily digest to the CLI.
 
 Built as a practical automation project to mirror real-world vulnerability intelligence pipelines (collect → parse → store → alert).
 
