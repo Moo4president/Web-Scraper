@@ -186,7 +186,7 @@ Run automatically every morning with cron:
 
 ---
 
-## 🗺 Roadmap
+## 📋 Next Steps for Improvement
 
 - [ ] Slack/email notifications for new postings
 - [ ] Filter by seniority level (junior, mid, senior)
